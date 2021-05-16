@@ -31,10 +31,33 @@ const removeFromCart = (id) => {
     };
 };
 
+const itemPlus = (id) => {
+    return {
+        type: 'ITEM_COUNT_PLUS',
+        payload: id
+    };
+};
+
+const itemMinus = (id) => {
+    return {
+        type: 'ITEM_COUNT_MINUS',
+        payload: id
+    };
+};
+
+const sendOrder = () => {
+    return {
+        type: 'SEND_ORDER'
+    };
+};
+
 export {
     menuLoaded,
     menuRequested,
     menuError,
     addedToCart,
-    removeFromCart
+    removeFromCart,
+    itemPlus,
+    itemMinus,
+    sendOrder
 };

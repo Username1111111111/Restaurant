@@ -21,7 +21,7 @@
         border: 1px solid rgba(256,256,256, .2);
         background-color: rgba(0,0,0,.7);
         box-shadow: 0 0 20px rgba(256,256,256, .1);
-        &-title, &-price  {
+        &-title, &-price, &-count  {
             width: 250px;
             text-align: center;
             color: #fff;
@@ -31,6 +31,31 @@
             height: 125px;
             width: 250px;
             object-fit: cover;
+        }
+        &-counter-wrap {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 125px;
+            width: 60px;
+        }
+        &-button {
+            background: rgba(255, 255, 255, 0.9);
+            border-color: rgba(0,0,0,0.1);
+            border-radius: 100%;
+            color: rgb(0, 0, 0);
+            display: block;
+            font-size: 24px;
+            line-height: 100%;
+            margin: 5px;
+            text-align: center;
+            max-height: 30px;
+            min-width: 30px;
+            outline: none;
+        }
+        &-button:active {
+            border-color: rgb(134, 134, 134);
         }
     }
     &__close {

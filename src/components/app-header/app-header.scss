@@ -16,4 +16,21 @@
         width: 20px;
         margin-right: 10px;
     }
+    &__button {
+        background: rgba(0, 0, 0, 0.9);
+        border-color: rgba(0,0,0,0.1);
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        display: block;
+        font-size: 18px;
+        line-height: 100%;
+        margin: 5px;
+        text-align: center;
+        max-height: 30px;
+        min-width: 30px;
+        outline: none;
+    }
+    &__button:active {
+        border-color: rgb(255, 255, 255);
+    }
 }
