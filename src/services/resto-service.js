@@ -1,7 +1,7 @@
 export default class RestoService {
 
 	constructor() {
-		this._apiBase = 'http://localhost:3004';
+		this._apiBase = 'http://localhost:4000';
 	}
 
 	// GET -----------
