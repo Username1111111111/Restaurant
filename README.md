@@ -1,8 +1,8 @@
 # Restaurant <img src="https://img.shields.io/badge/Status-Complete-green" style="vertical-align: middle;">
 > App for selling dishes, with cart (React-Redux, fake REST API)
-> <p><a href="">Live demo here</a></p>
+> <p><a href="https://restaurant-app-test-demo.herokuapp.com/">Live demo here</a></p>
 > <p>Or 👇:</p>
-<a href="">
+<a href="https://restaurant-app-test-demo.herokuapp.com/">
  <img src="./_resourses/restaurant.png">
 </a>
 
