@@ -1,9 +1,8 @@
 export default class RestoService {
 
 	constructor() {
-		//this._apiBase = 'http://localhost:4000';
-		this._apiBase = 'https://restaurant-app-test-demo.herokuapp.com';
-		
+		this._apiBase = 'http://localhost:4000';
+		//this._apiBase = 'https://restaurant-app-test-demo.herokuapp.com';
 	}
 
 	// GET -----------

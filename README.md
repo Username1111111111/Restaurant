@@ -53,7 +53,7 @@
 * `npm build`
 
 ## Usage
-- Type in terminal `json-server --watch src/db.json --port 3004` inside cloned repo
+- Type in terminal `json-server --watch src/db.json --port 4000` inside cloned repo
 - Type in terminal `npm start` inside cloned repo
 - Enjoy 👍
 
